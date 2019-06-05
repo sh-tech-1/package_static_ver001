@@ -9,5 +9,5 @@ node -v
 node_moduleのインストール
 npm i -D webpack webpack-cli sass-loader node-sass style-loader css-loader
 
-package
+package.jsonのあるディレクトリ階層で実行。コンパイルさせる。
 npx webpack -watch
